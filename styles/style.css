@@ -642,7 +642,7 @@ aside button:hover {
     transition: all 0.7s;
 }
 .part-3 .cardwrapper .card:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 .part-3 .cardwrapper .card .card-info{
     width: 249px;
@@ -724,7 +724,7 @@ aside button:hover {
     transition: all 0.7s;
 }
 .part-3 button:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
     background: #B88E2F;
     color: #fff;
 }
@@ -732,3 +732,9 @@ aside button:hover {
     padding-bottom: 62px;
     border-bottom: 1px solid #D4D4D4;    
 }
+
+
+
+
+
+
