@@ -20,7 +20,7 @@ header {
 
 .container {
     max-width: 1440px;
-    min-width: 1440px;
+    /* min-width: 1440px; */
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -616,6 +616,7 @@ aside button:hover {
 .part-3{
     width: 1440px;
     height: 777px;
+    
 }
 .part-3 .tittle h2{
     font-family: 'Poppins';
@@ -629,12 +630,19 @@ aside button:hover {
 .part-3 .cardwrapper{
     width: 1236px;
     margin: 26px auto;
+    display: flex;
+    justify-content: space-between;
 }
 .part-3 .cardwrapper .card {
     width: 285px;
     position: relative;
     height: 446px;
     background: #F4F5F7;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.part-3 .cardwrapper .card:hover{
+    transform: scale(0.9);
 }
 .part-3 .cardwrapper .card .card-info{
     width: 249px;
@@ -676,4 +684,51 @@ aside button:hover {
     line-height: 24px;
     color: #B0B0B0;
     text-decoration: line-through;
+}
+.discount span{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    padding: 12px 1px 12px 5px;
+    /* width: 30px; */
+    /* height: 30px; */
+    font-family: 'Poppins';
+    border: none;
+    background: #E97171;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+.card-4 .discount span{
+    background: #2EC1AC;
+    padding: 12px 5px 12px 8px;
+    display: flex;
+    align-items: center;
+}
+.part-3 button{
+    font-family: 'Poppins';
+    padding: 12px 74px 12px 82px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    background: transparent;
+    margin: 44px auto;
+    display: flex;
+    transition: all 0.7s;
+}
+.part-3 button:hover{
+    transform: scale(0.9);
+    background: #B88E2F;
+    color: #fff;
+}
+.but{
+    padding-bottom: 62px;
+    border-bottom: 1px solid #D4D4D4;    
 }
