@@ -367,6 +367,9 @@ aside img {
     width: 606px;
     display: flex;
     justify-content: space-between;
+    padding-right: 24px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 60px;
 }
 .part-1-buttons button{
     padding: 17px 48px;
@@ -376,6 +379,18 @@ aside img {
     text-align: left;
     font-family: 'Poppins';
     border: 1px solid #000;
+    background: transparent;
     border-radius: 15px;
     color: #000000;
+    transition: all 0.7s;
+}
+.part-1-buttons button:nth-child(1){
+    padding: 20px 15px;
+    width: 123px;
+    display: flex;
+    justify-content: space-between;
+}
+.part-1-buttons button:hover{
+    border-color: #9F9F9F;
+    transform: scale(1.1);
 }
