@@ -195,6 +195,7 @@ section {
     width: 1241px;
     margin: auto;
     display: flex;
+    padding-left: 100px;
 }
 
 .part-1-images {
