@@ -9,6 +9,10 @@ body {
     background: #F5F5F5;
 }
 
+button {
+    cursor: pointer;
+}
+
 header {
     background: #fff;
     position: relative;
@@ -101,7 +105,7 @@ nav ul li {
     background: #F2F2F2;
     border: 1px solid #f1f1f1;
     border-radius: 35%;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 nav {
@@ -199,12 +203,24 @@ section {
 }
 
 aside {
-    width: 76px;
-    gap: 32px;
+    width: 86px;
+    gap: 21px;
 }
 
-aside img {
-    padding-bottom: 32px;
+aside button {
+    margin-bottom: 32px;
+    transition: all 0.7s;
+    background: transparent;
+    border: none;
+    padding: 5px 5px 1 5px;
+    border: none;
+}
+
+aside button:hover {
+    transform: scale(1.3);
+    /* padding: 4px 4px 02 4px; */
+    /* border-radius: 9px; */
+    /* border: 1px solid #B88E2F; */
 }
 
 .part-hero-img {
@@ -273,7 +289,8 @@ aside img {
     font-family: 'Poppins';
     color: #9F9F9F;
 }
-.part-1 .part-1-info p{
+
+.part-1 .part-1-info p {
     font-size: 13px;
     font-weight: 400;
     line-height: 19.5px;
@@ -283,9 +300,11 @@ aside img {
     color: #000;
     width: 424px;
 }
+
 .part-1 .part-1-info .size {
     margin-top: 22px;
 }
+
 .part-1 .part-1-info .size h3 {
     font-size: 14px;
     font-weight: 400;
@@ -295,14 +314,17 @@ aside img {
     color: #9F9F9F;
 
 }
+
 .part-1 .part-1-info .sizes {
     width: 123px;
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .part-1 .part-1-info .size button {
     padding: 5px 12px;
-    background: #F9F1E7; 
-    border-radius: 5px;   
+    background: #F9F1E7;
+    border-radius: 5px;
     border: none;
     color: #000;
     font-size: 13px;
@@ -313,23 +335,28 @@ aside img {
     margin-top: 12px;
     transition: all 0.7s;
 }
-.part-1 .part-1-info .size button:nth-child(2){
+
+.part-1 .part-1-info .size button:nth-child(2) {
     padding: 5px 8px;
     background: #F9F1E7;
 }
-.part-1 .part-1-info .size button:nth-child(3){
+
+.part-1 .part-1-info .size button:nth-child(3) {
     padding: 5px 7px;
-    background: #F9F1E7;    
+    background: #F9F1E7;
 }
-.part-1 .part-1-info .size button:hover{
+
+.part-1 .part-1-info .size button:hover {
     background: #B88E2F;
     border: none;
     color: #fff;
     transform: scale(1.1);
 }
-.part-1 .part-1-info .color{
+
+.part-1 .part-1-info .color {
     margin-top: 18px;
 }
+
 .part-1 .part-1-info .color label {
     font-size: 14px;
     font-weight: 400;
@@ -338,30 +365,36 @@ aside img {
     color: #9F9F9F;
     font-family: 'Poppins';
 }
-.part-1 .part-1-info .color .colors{
+
+.part-1 .part-1-info .color .colors {
     display: flex;
     width: 123px;
     justify-content: space-between;
     margin-top: 12px;
 }
-.part-1 .part-1-info .color .colors button{
+
+.part-1 .part-1-info .color .colors button {
     width: 30px;
     height: 30px;
-    border-radius:50%;
+    border-radius: 50%;
     background: #816DFA;
-    border: none;
+    border: transparent;
     transition: all 0.5s;
 }
-.part-1 .part-1-info .color .colors button:nth-child(2){
+
+.part-1 .part-1-info .color .colors button:nth-child(2) {
     background: #000;
 }
-.part-1 .part-1-info .color .colors button:nth-child(3){
+
+.part-1 .part-1-info .color .colors button:nth-child(3) {
     background: #B88E2F;
 }
-.part-1 .part-1-info .color .colors button:hover{
+
+.part-1 .part-1-info .color .colors button:hover {
     transform: scale(1.2);
-    border: none;
+    border: 1px solid #000;
 }
+
 .part-1-buttons {
     margin-top: 32px;
     width: 606px;
@@ -371,7 +404,8 @@ aside img {
     border-bottom: 1px solid #D9D9D9;
     padding-bottom: 60px;
 }
-.part-1-buttons button{
+
+.part-1-buttons button {
     padding: 17px 48px;
     font-size: 20px;
     font-weight: 400;
@@ -384,13 +418,86 @@ aside img {
     color: #000000;
     transition: all 0.7s;
 }
-.part-1-buttons button:nth-child(1){
+
+.part-1-buttons button:nth-child(1) {
     padding: 20px 15px;
     width: 123px;
     display: flex;
     justify-content: space-between;
 }
-.part-1-buttons button:hover{
+
+.part-1-buttons button:hover {
     border-color: #9F9F9F;
     transform: scale(1.1);
+}
+
+.part-1-foot{
+    width: 297px;
+    margin-top: 41px;
+    margin-bottom: 49px;
+    display: flex;
+}
+
+.part-1-foot ul li {
+    width: 85px;
+    display: flex;
+    list-style: none;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9F9F9F;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.part-1-foot ul li:nth-child(1) span{
+    padding-left: 61px;
+}
+.part-1-foot ul li:nth-child(2) span{
+    padding-left: 16px;
+}
+.part-1-foot ul li:nth-child(3) span{
+    padding-left: 52px;
+}
+.part-1-foot ul li:nth-child(4) span{
+    padding-left: 44px;
+}
+.right{
+    width: 200px;
+    margin-left: 20px;
+}
+.right a{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9F9F9F;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: all 0.7s;
+}
+.right a:nth-child(3){
+    width: 200px;
+}
+.right a:hover{
+    color: #B88E2F;
+}
+.right .social-links{
+    display: flex;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .social-links button {
+    background: transparent;
+    border: none;
+    transition: all 0.7s;
+}
+.right .social-links button:hover{
+    transform:scale(1.3);
+
 }
