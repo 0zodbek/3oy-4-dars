@@ -583,7 +583,8 @@ aside button:hover {
     transform: scale(1.1);
     border: none;
 }
-.part-2 .part-info h2{
+
+.part-2 .part-info h2 {
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
@@ -593,7 +594,8 @@ aside button:hover {
     width: 1026px;
     margin: auto;
 }
-.part-2 .part-info p{
+
+.part-2 .part-info p {
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
@@ -604,9 +606,74 @@ aside button:hover {
     margin: 30px auto;
 
 }
-.part-2 .part-2-imagae{
+
+.part-2 .part-2-imagae {
     width: 1239px;
     display: flex;
     justify-content: space-between;
     margin: 36px auto;
+}
+.part-3{
+    width: 1440px;
+    height: 777px;
+}
+.part-3 .tittle h2{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 55px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    color: #000;
+}
+.part-3 .cardwrapper{
+    width: 1236px;
+    margin: 26px auto;
+}
+.part-3 .cardwrapper .card {
+    width: 285px;
+    position: relative;
+    height: 446px;
+    background: #F4F5F7;
+}
+.part-3 .cardwrapper .card .card-info{
+    width: 249px;
+    height: 99px;
+    margin: 16px auto;
+    font-family:'Poppins' ;
+}
+.part-3 .cardwrapper .card .card-info h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3A3A3A;
+}
+.part-3 .cardwrapper .card .card-info h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #898989;
+    margin-top: 8px;
+}
+.part-3 .cardwrapper .card .card-info .price {
+    width: 249px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px auto;
+    align-items: center;
+}
+.part-3 .cardwrapper .card .card-info .price p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3A3A3A;
+}
+.part-3 .cardwrapper .card .card-info .price span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #B0B0B0;
+    text-decoration: line-through;
 }
